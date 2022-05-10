@@ -1,9 +1,11 @@
 # OGXbox_extract-xiso_Batch_Scripts
 Collection of PowerShell scripts to use extract-iso on batches of games
+
 All magic and credit to extract-iso (https://github.com/XboxDev/extract-xiso)
 
 
 RedumpToXISO:
+
 Convert OG Xbox Redump ISOs to repacked (shrank) XISO format 
 
 This script batch converts Xbox Redumps (complete disc rips from archive.org) to playable xisos using extract-iso (https://github.com/XboxDev/extract-xiso). It also uses fsplit.exe (taken from the 'Create and Split' tool floating around OG Xbox scenes) in order to split the resulting XISO so that it can be stored on an Xbox.
@@ -17,6 +19,7 @@ powershell -ExecutionPolicy ByPass -File .\RedumpToXISO.ps1
 -----------------------------------------------------------------
 
 RedumpToDirectory
+
 Extract OG Xbox Redump ISOs to directory format
 
 The script asks if you want to delete source redumps
@@ -28,6 +31,7 @@ powershell -ExecutionPolicy ByPass -File .\RedumpToDirectory.ps1
 -----------------------------------------------------------------
 
 DirectoryToXISO
+
 Convert OG Xbox games from directory format to repacked (shrank) XISO format
 
 This script can use fsplit.exe (taken from the 'Create and Split' tool floating around OG Xbox scenes) in order to split the resulting XISO so that it can be stored on an Xbox.
