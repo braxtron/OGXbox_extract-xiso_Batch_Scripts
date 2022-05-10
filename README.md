@@ -3,6 +3,7 @@ Collection of PowerShell scripts to use extract-iso on batches of games
 
 All magic and credit to extract-iso (https://github.com/XboxDev/extract-xiso)
 
+-----------------------------------------------------------------
 
 RedumpToXISO:
 
