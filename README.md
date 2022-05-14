@@ -21,7 +21,7 @@ powershell -ExecutionPolicy ByPass -File .\RedumpToXISO.ps1
 
 RedumpToDirectory
 
-Extract OG Xbox Redump ISOs to directory format
+Extract OG Xbox Redump ISOs to directory format. This will also extract XISOs to directory format.
 
 The script asks if you want to delete source redumps
 The script asks the user to input a source directory of redump ISOs and a destination directory for the game directories
