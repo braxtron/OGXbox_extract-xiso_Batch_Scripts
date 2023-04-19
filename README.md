@@ -37,8 +37,8 @@ Convert OG Xbox games from directory format to repacked (shrank) XISO format
 
 This script can use fsplit.exe (taken from the 'Create and Split' tool floating around OG Xbox scenes) in order to split the resulting XISO so that it can be stored on an Xbox.
 The script asks the users if they want to delete the source redumps, split large XISOs, or truncate the XISOs to 42 characters so they can be used on an Xbox.
-The script asks the user to input a source directory of redump ISOs and a destination directory for the resultant XISOs.
-The final XISOs will need to be further processed by the script built into XBMC4Gamers in order to create an attach.xbe and make them playable.
+The script asks the user to input a source directory of games in directory format and a destination directory for the resultant XISOs.
+The final XISOs will need to be further processed in order to create an attach.xbe and make them playable. I highly recommend Repackinator for this (https://github.com/Team-Resurgent/Repackinator) but you can also use the script built into XBMC4Gamers.
 
 You can run the powershell script by double clicking DirectoryToXISO.bat or running the following command:
 powershell -ExecutionPolicy ByPass -File .\DirectoryToXISO.ps1
